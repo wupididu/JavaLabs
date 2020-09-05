@@ -64,12 +64,26 @@ public class Main {
             System.out.println(randArr[i]);
         }
     }
+    int Factorial(int number){
+        if(number > 1)
+            return number*Factorial(number - 1);
+        else if (number <= 1)
+            return 1;
+        return 0;
+    }  // Реализация через рекурсию
+    void LoopFact(int number){
+        int res = 1;
+        for (int i = 1; i <= number; i++)
+            res *=i;
+        System.out.println(res);
+    }  // Реализация циклом
 
     public static void main(String[] args) {
         Main Task = new Main();
         //Task.FirstTask();
         //Task.ThTask();
-        Task.RandomTask();
-
+        //Task.RandomTask();
+        //System.out.println(Task.Factorial(13));
+        // Task.LoopFact(13);
     }
 }
