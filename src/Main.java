@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Main {
     void FirstTask(){
         int[] arr = new int[10];
@@ -41,7 +43,7 @@ public class Main {
             System.out.println(1 + "/" + i + " ("+ 1/n+")");
         }
     }
-    void RandomTask(){
+    void MRandomTask(){
         int[] randArr = new int[10];
         for(int i = 0; i < 10; i++){
             randArr[i] = (int)(Math.random()*100);
@@ -63,7 +65,31 @@ public class Main {
         for(int i = 0; i < 10; i++){
             System.out.println(randArr[i]);
         }
-    }
+    } // Через класс Math
+    void RandomTask(){
+        int[] randArr = new int[10];
+        Random random = new Random();
+        for(int i = 0; i < 10; i++){
+            randArr[i] = random.nextInt(100);
+        }
+        System.out.println("Array:");
+        for(int i = 0; i < 10; i++){
+            System.out.println(randArr[i]);
+        }
+        System.out.println("Sorted Array:");
+        for(int i = 0; i < 9; i++){
+            for(int j = 0; j < 9-i; j++){
+                if(randArr[j] > randArr[j+1]){
+                    int temp = randArr[j];
+                    randArr[j] = randArr[j+1];
+                    randArr[j+1] = temp;
+                }
+            }
+        }
+        for(int i = 0; i < 10; i++){
+            System.out.println(randArr[i]);
+        }
+    } // Через класс Random
     int Factorial(int number){
         if(number > 1)
             return number*Factorial(number - 1);
@@ -81,9 +107,10 @@ public class Main {
     public static void main(String[] args) {
         Main Task = new Main();
         //Task.FirstTask();
-        //Task.ThTask();
+        //Task.Task();
+        //Task.MRandomTask();
         //Task.RandomTask();
         //System.out.println(Task.Factorial(13));
-        // Task.LoopFact(13);
+        Task.LoopFact(4);
     }
 }
