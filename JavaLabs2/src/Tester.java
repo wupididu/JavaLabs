@@ -12,7 +12,7 @@ public class Tester {
 
 class Shape{
     String form = "Triangle";
-    private double place, a, b, c, P;
+    private double area, a, b, c, P;
     void set(){
         Scanner in = new Scanner(System.in);
 
@@ -24,13 +24,13 @@ class Shape{
         }while(a >= b+c || b >= a+c || c >= a+b );
         P = a + b + c;
         double p = P/2;
-        place = Math.sqrt(p*(p-a)*(p-b)*(p-c));
+        area = Math.sqrt(p*(p-a)*(p-b)*(p-c));
     }
     void get(){
         System.out.println(form);
         System.out.println("a: " + a + "; b: " + b + "; c: " + c);
-        System.out.print("place: ");
-        System.out.format("%.3f%n", place);
+        System.out.print("area: ");
+        System.out.format("%.3f%n", area);
         System.out.println("P: " + P);
     }
 }
