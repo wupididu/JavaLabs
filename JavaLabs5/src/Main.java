@@ -30,13 +30,13 @@ public class Main {
         rectangle.CalcArea();
 
         square.GetName();
-        square.GetName();
+        square.GetColor();
         square.CalcArea();
     }
 }
 
 abstract class Shape{
-    String name, color;
+    private String name, color;
     abstract void CalcArea();
     Scanner in = new Scanner(System.in);
     void SetName(){
@@ -60,7 +60,7 @@ abstract class Shape{
 }
 
 class Circle extends Shape{
-    double radius;
+    private double radius;
 
     void SetRadius(){
         Scanner in = new Scanner(System.in);
@@ -74,7 +74,7 @@ class Circle extends Shape{
 }
 
 class Rectangle extends Shape{
-    int side_a, side_b;
+    private int side_a, side_b;
 
     void SetSides(){
         Scanner in = new Scanner(System.in);
@@ -92,7 +92,7 @@ class Rectangle extends Shape{
 }
 
 class Square extends Shape{
-    int side;
+    private int side;
 
     void SetSides(){
         Scanner in = new Scanner(System.in);
