@@ -35,6 +35,7 @@ public class Main {
     }
 }
 
+
 abstract class Shape{
     private String name, color;
     abstract void CalcArea();
