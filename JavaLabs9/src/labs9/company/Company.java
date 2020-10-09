@@ -12,4 +12,8 @@ public class Company {
     void fire(Employee employee){
         staff.remove(employee);
     }
+
+    public ArrayList<Employee> getStaff() {
+        return staff;
+    }
 }
