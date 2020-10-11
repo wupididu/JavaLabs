@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Lab10.CalcFrame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="512" height="537"/>
+    </constraints>
+    <properties>
+      <background color="-13016444"/>
+      <enabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1c75a" binding="numPud" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-10526621"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="33f93" class="javax.swing.JButton" binding="button4">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="4"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="42158" class="javax.swing.JButton" binding="button5">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="5"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="7668f" class="javax.swing.JButton" binding="button6">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="6"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="8f91d" class="javax.swing.JButton" binding="button1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="1"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="fd890" class="javax.swing.JButton" binding="button2">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="2"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="777c9" class="javax.swing.JButton" binding="button3">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="3"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="4607f" class="javax.swing.JButton" binding="buttonMinus">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-3839941"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="-"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="a4285" class="javax.swing.JButton" binding="buttonMult">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-3839941"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="*"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="b562a" class="javax.swing.JButton" binding="button7">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="7"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="275f8" class="javax.swing.JButton" binding="button8">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="8"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="4521d" class="javax.swing.JButton" binding="button9">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="9"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="83153" class="javax.swing.JButton" binding="buttonPlus">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-3839941"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="+"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="773cc" class="javax.swing.JButton" binding="button0">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="0"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="e13c7" class="javax.swing.JButton" binding="button00">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="00"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="35096" class="javax.swing.JButton" binding="buttonDote">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-5131090"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="."/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="13465" class="javax.swing.JButton" binding="buttonDiv">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="50.0" weighty="50.0"/>
+            </constraints>
+            <properties>
+              <background color="-3839941"/>
+              <font size="22"/>
+              <foreground color="-16777216"/>
+              <text value="/"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e80ba" layout-manager="GridBagLayout">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c8d29" class="javax.swing.JTextField" binding="textField">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="350.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <columns value="16"/>
+              <editable value="false"/>
+              <font size="20"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <component id="bd174" class="javax.swing.JTextField" binding="textRes">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="350.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <columns value="16"/>
+              <editable value="false"/>
+              <font size="20"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d89f8" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="156b9" class="javax.swing.JButton" binding="buttonEq">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-3839941"/>
+              <foreground color="-16777216"/>
+              <text value="="/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ff587" class="javax.swing.JButton" binding="cButton" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-3839941"/>
+          <foreground color="-16777216"/>
+          <text value="C"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
