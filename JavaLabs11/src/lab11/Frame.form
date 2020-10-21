@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="lab11.Frame">
   <grid id="27dc6" binding="Panel" layout-manager="GridBagLayout">
     <constraints>
-      <xy x="28" y="41" width="882" height="756"/>
+      <xy x="28" y="41" width="882" height="779"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -23,10 +23,11 @@
           <component id="8fe85" class="javax.swing.JButton" binding="button5">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
@@ -48,10 +49,11 @@
           <component id="7772d" class="javax.swing.JButton" binding="button6">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
@@ -73,10 +75,11 @@
           <component id="532a5" class="javax.swing.JButton" binding="button4">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
@@ -98,10 +101,11 @@
           <component id="54c60" class="javax.swing.JButton" binding="button7">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
@@ -123,10 +127,11 @@
           <component id="4b2ff" class="javax.swing.JButton" binding="button8">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
@@ -148,10 +153,11 @@
           <component id="6e13f" class="javax.swing.JButton" binding="button9">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
@@ -173,9 +179,10 @@
           <component id="763a" class="javax.swing.JButton" binding="button1" default-binding="true">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
+              <background color="-5131090"/>
               <enabled value="true"/>
               <text value=""/>
             </properties>
@@ -198,10 +205,11 @@
           <component id="d71d3" class="javax.swing.JButton" binding="button2">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
@@ -223,15 +231,43 @@
           <component id="9daac" class="javax.swing.JButton" binding="button3">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-              <gridbag weightx="100.0" weighty="100.0" ipadx="100" ipady="100"/>
+              <gridbag weightx="100.0" weighty="100.0"/>
             </constraints>
             <properties>
-              <enabled value="false"/>
+              <background color="-5131090"/>
+              <enabled value="true"/>
               <text value=""/>
             </properties>
           </component>
         </children>
       </grid>
+      <component id="b44cd" class="javax.swing.JButton" binding="TPmode">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Two Player mode"/>
+        </properties>
+      </component>
+      <component id="a1096" class="javax.swing.JButton" binding="CPmode">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="CPmode"/>
+        </properties>
+      </component>
+      <component id="9ebf1" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Reset"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

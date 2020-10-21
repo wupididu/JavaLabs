@@ -6,11 +6,12 @@ public class Main {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setVisible(true);
-        frame.setSize(400,400);
+        frame.setSize(500,550);
+        frame.setResizable(false);
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
-        frame.add(new Frame().getPanel());
+        Frame f = new Frame();
+        frame.add(f.getPanel());
 
     }
 }
