@@ -17,6 +17,9 @@ public class Main {
         ArrayList<String> list = new ArrayList<>();
         Scanner in = new Scanner(System.in);
 
+        System.out.println("List of command:\n   LIST: get task list;\n   ADD: add task;\n   EDIT: change task in" +
+                " number;\n   DELETE: delete task of this number;\n");
+
         System.out.print(">>>>");
         String com = in.nextLine();
         String[] command = com.split(" ");

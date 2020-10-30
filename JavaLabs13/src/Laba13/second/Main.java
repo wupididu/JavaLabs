@@ -35,6 +35,8 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
+        System.out.println("List of command:\n   LIST: get all info;\n   ADD: add adress;\n");
+
         System.out.print(">>>>>>");
         String text = in.nextLine();
         String[] command = text.split(" ");
