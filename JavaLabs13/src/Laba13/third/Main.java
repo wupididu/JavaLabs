@@ -23,6 +23,7 @@ public class Main {
 
         while(true) {
             String command;
+            Number number = new Number();
             System.out.print(">>>>>>");
             command = in.nextLine();
             switch (command) {
@@ -33,19 +34,28 @@ public class Main {
                         System.out.println(name + " " + contact.get(name));
                     } else {
                         System.out.print("number: ");
-                        contact.put(name, in.nextLine());
+                        number.setPhoneNumber(in.nextLine());
+                        while (!number.correct_number()) {
+                            System.out.print("ERROR\n number:");
+                            number.setPhoneNumber(in.nextLine());}
+                        contact.put(name, number.refactor_number());
                     }
+                    System.out.println(number.refactor_number());
                     break;
                 }
                 case "NUMBER": {
                     System.out.print("number: ");
-                    String number = in.nextLine();
-                    if (contact.containsValue(number)) {
-                        System.out.println(new Main().get(contact.entrySet(), number));
+                    number.setPhoneNumber(in.nextLine());
+                    while (!number.correct_number()) {
+                        System.out.print("ERROR\nnumber:");
+                        number.setPhoneNumber(in.nextLine());}
+                    if (contact.containsValue(number.refactor_number())) {
+                        System.out.println(new Main().get(contact.entrySet(), number.refactor_number()));
                     } else {
                         System.out.print("name: ");
-                        contact.put(in.nextLine(), number);
+                        contact.put(in.nextLine(), number.refactor_number());
                     }
+                    System.out.println(number.refactor_number());
                     break;
                 }
                 case "LIST": {
