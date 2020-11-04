@@ -35,9 +35,9 @@ public class Main {
 
         System.out.print("Поиск перебором:");
         long start = System.nanoTime();
-        boolean isit = listCoolNumber.contains(number);
+        boolean itis = listCoolNumber.contains(number);
         long end = System.nanoTime() - start;
-        if(isit) System.out.println(" номер найден, поиск занял " + end + "нс");
+        if(itis) System.out.println(" номер найден, поиск занял " + end + "нс");
         else System.out.println(" номер не найден, поиск занял " + end + "нс");
 
         System.out.print("Поиск бинарный:");
@@ -52,17 +52,17 @@ public class Main {
         System.out.print("Поиск в HashSet:");
         HashSet<String> list = new HashSet<>(listCoolNumber);
         start = System.nanoTime();
-        isit = list.contains(number);
+        itis = list.contains(number);
         end = System.nanoTime() - start;
-        if(isit) System.out.println(" номер найден, поиск занял " + end + "нс");
+        if(itis) System.out.println(" номер найден, поиск занял " + end + "нс");
         else System.out.println(" номер не найден, поиск занял " + end + "нс");
 
         System.out.print("Поиск в TreeSet:");
         TreeSet<String> treeList = new TreeSet<>(listCoolNumber);
         start = System.nanoTime();
-        isit = treeList.contains(number);
+        itis = treeList.contains(number);
         end = System.nanoTime() - start;
-        if(isit) System.out.println(" номер найден, поиск занял " + end + "нс");
+        if(itis) System.out.println(" номер найден, поиск занял " + end + "нс");
         else System.out.println(" номер не найден, поиск занял " + end + "нс");
 
     }
