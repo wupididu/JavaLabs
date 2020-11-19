@@ -9,9 +9,10 @@ public class Main {
         frame.setSize(500,550);
         frame.setResizable(false);
 
+
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         Frame f = new Frame();
         frame.add(f.getPanel());
-
+        frame.setVisible(true);
     }
 }

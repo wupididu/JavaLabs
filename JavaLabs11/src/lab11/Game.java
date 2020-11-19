@@ -44,5 +44,9 @@ public class Game {
         }
         return true;
     }
+
+    public boolean isEmpty(int x, int y){
+        return table[x][y] != 'n';
+    }
 }
 
