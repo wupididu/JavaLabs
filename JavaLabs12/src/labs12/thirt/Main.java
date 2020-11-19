@@ -7,7 +7,7 @@ public class Main {
         Number number = new Number();
         Scanner in = new Scanner(System.in);
         System.out.print(">>>>");
-        String num = in.next();
+        String num = in.nextLine();
         while(num != "close"){
             number.setPhoneNumber(num);
             if (number.correct_number()) {
@@ -16,7 +16,7 @@ public class Main {
             else System.out.println("Wrong number");
 
             System.out.print(">>>>");
-            num = in.next();
+            num = in.nextLine();
         }
 
 

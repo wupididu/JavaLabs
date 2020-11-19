@@ -4,6 +4,7 @@ public class Number {
     private String phoneNumber;
     private int begin_index = 0;
     private String correct_number;
+    private String list;
 
     void setPhoneNumber(String phoneNumber){
         this.phoneNumber = phoneNumber;
@@ -63,19 +64,15 @@ public class Number {
     }
 
     boolean correct_number(){
-        for (int i = 0; i < phoneNumber.length()-10; i++) {
-            if (phoneNumber.charAt(i) == '8' || phoneNumber.substring(i, i+2).equals("+7")) {
-                int count_digit = 0;
-                for (int j = i; j < phoneNumber.length(); j++) {
-                    if (phoneNumber.charAt(j) >= '0' && phoneNumber.charAt(j) <= '9') count_digit++;
-                }
-                if (count_digit == 11) {
-                    if (phoneNumber.charAt(i) == '8')begin_index = i+1;
-                    else if(phoneNumber.substring(i, i+2).equals("+7")) begin_index = i+2;
-                    return true;
-                }
-                return false;
+        list = "";
+        for (int i = 0; i < phoneNumber.length();i++){
+            if (phoneNumber.charAt(i) >= '0' && phoneNumber.charAt(i) <= '9'){
+                list += phoneNumber.charAt(i);
             }
+        }
+        if((list.length() == 11 && (list.charAt(0) == '8' || list.charAt(0) == '7') || list.length() == 10)){
+            begin_index = list.length() - 10;
+            return true;
         }
         return false;
     }
