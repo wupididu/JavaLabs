@@ -26,6 +26,8 @@ public class Main {
         });
 
         for (String url: urlStack){
+            File folder = new File("images");
+            if(!folder.exists()) folder.mkdir();
             File file = new File("images/" + url.split("/")[url.split("/").length-1]);
             LoadImage image = new LoadImage(url,file);
             image.load();
